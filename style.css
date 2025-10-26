@@ -1,0 +1,88 @@
+/* RESET DASAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #4a0e0e; /* maroon dominan */
+  color: #3a0606;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  background-color: #6a1b1b;
+  color: #f8f3e8;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+/* NAVBAR */
+nav {
+  width: 100%;
+  background-color: #7a2020;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  color: #f8f3e8;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 12px 0;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #f1e7d0;
+  text-decoration: underline;
+}
+
+/* ISI (MAIN) */
+main {
+  background-color: #f8f3e8; /* cream beige */
+  background-image:
+    radial-gradient(#d4bfa0 1.2px, transparent 1.2px),
+    radial-gradient(#d4bfa0 1.2px, transparent 1.2px),
+    radial-gradient(circle at 10px 10px, rgba(255, 215, 170, 0.5) 1.5px, transparent 1.5px),
+    radial-gradient(circle at 25px 25px, rgba(250, 230, 190, 0.6) 1.5px, transparent 1.5px);
+  background-position: 0 0, 15px 15px, 5px 5px, 20px 20px;
+  background-size: 30px 30px; /* makin banyak sprinkle */
+  text-align: center;
+  padding: 50px 20px;
+  min-height: 80vh;
+}
+
+/* JUDUL DI DALAM ISI */
+main h2 {
+  color: #5c1212;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+/* GAMBAR DALAM ISI */
+main img {
+  width: 250px; /* kecilin fotonya */
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: #009c9c;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 4px solid #6a1b1b;
+  font-size: 0.9em;
+}
